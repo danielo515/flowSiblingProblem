@@ -1,0 +1,13 @@
+[ignore]
+
+[include]
+../A/
+
+[libs]
+
+[lints]
+
+[options]
+module.name_mapper='^A$' ->'<PROJECT_ROOT>/../A'
+
+[strict]
